@@ -8,8 +8,8 @@ body {
   width: 100vw;
   height: 100vh;
   flex-wrap: wrap;
-  background-color: rgb(14, 223, 212);
-  justify-content: space-around;
+  background-color: #99DBF5;
+  justify-content: space-between;
 }
 main,
 header,
@@ -20,13 +20,14 @@ img {
   width: 20vw;
 }
 nav {
-  background-color: rgb(255, 64, 64);
+  background-color: #9AC5F4;
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
   height: 5vh;
   justify-content: space-between;
   position: fixed;
+  padding-right: 1rem;
 }
 nav div {
   flex-wrap: wrap;
@@ -66,6 +67,7 @@ header {
   text-align: center;
   justify-content: space-between;
   align-content: flex-end;
+  background-color: #A7ECEE;
 }
 header p {
   width: 100vw;
@@ -90,6 +92,8 @@ h1 {
 footer {
   width: 100vw;
   align-items: center;
+  background-color: #9AC5F4;
+  font-weight: bold;
 }
 main {
   width: 100vw;
@@ -104,14 +108,17 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   justify-items: flex-end;
+  background-color: #A7ECEE;
 }
 #section-2 h4 {
   flex-wrap: wrap;
   width: 22vw;
   display: flex;
   justify-self: flex-start;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   align-content: center;
+  font-family: 'Kanit', sans-serif;
+
 }
 #index-i-2{
   display: flex;
@@ -123,7 +130,7 @@ main {
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
-  justify-content: space-between;
+  align-content: space-between;
   justify-content: center;
 }
 #header-about>div{
@@ -141,6 +148,10 @@ main {
   align-self: flex-end;
   align-content: flex-end;
 }
+#header-about h1{
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
 #header-about p{
   font-size: 2rem;
   flex-wrap: wrap;
@@ -150,40 +161,33 @@ main {
   flex-wrap: wrap;
   display: flex;
   width: 80vw;
-  height: 80vh;
+  height: 75vh;
   justify-content: space-around;
   align-content: space-around;
   justify-items: center;
 }
 #main-about section{
   width: 100vw;
+  font-family: 'Kanit', sans-serif;
+  justify-content: space-around;
 }
-#section-a{
+.section-a{
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
   align-items: center;
+  width: 10vw;
+  background-color: #A7ECEE;
 }
-#section-a-1{
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-  font-size: 1rem;
-  align-items: center;
+.about-h3 {
+  width: 50vw;
 }
-#section-a-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-size: 1rem;
-  align-items: center;
+.img-a {
+  height: 20vh;
+  object-fit: contain;
 }
-#sectio-a-2 h3{
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
-}
+
 #h3{
   display: flex;
   flex-wrap: wrap;
@@ -225,35 +229,43 @@ main {
 #main-c{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  height: 70vh;
+  flex-wrap: nowrap;
+  height: 80vh;
   align-items: center;
   justify-content: space-around;
 }
 #section-c{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
-  height: 50vh;
+  height: 70vh;
   align-items: center;
+  align-content: space-around;
+  background-color: #A7ECEE;
 }
 #section-c h3{
+  display: flex;
   font-size: 2rem;
   height: 10vh;
+  align-items: center;
 }
 #div-a-c{
   display: flex;
-  width:80vw;
+  width:60vw;
   height: 5vh;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  background-color: #A7ECEE;
 }
 .a-c{
   text-decoration: none;
   font-size: 2rem;
 }
 
+
+#body-inf{
+  justify-content: space-around;
+}
 #main-inf{
   display: flex;
   flex-wrap: wrap;
@@ -264,21 +276,19 @@ main {
 table{
   text-align: center;
   width: 60vw;
-  border: 1px solid;
+  border: solid rgb(51, 59, 2) 1rem;
   font-size: 2rem;
   border-collapse: collapse;
-  border-radius: 0.7rem;
-}
-th, td{
-  border: 2px solid rgb(255, 0, 212);
+  background-color: #A7ECEE;
 }
 td{
-  font-family: Arial, Helvetica, sans-serif;
+  border: solid rgb(51, 59, 2) 1rem;
+  font-family: 'Kanit', sans-serif;
 }
 th{
   font-weight: bolder;
 }
-tr:hover {background-color: rgb(82, 41, 27);}
+td:hover {background-color: rgb(82, 41, 27);}
 
 #main-bnf{
   display: flex;
@@ -286,20 +296,22 @@ tr:hover {background-color: rgb(82, 41, 27);}
   width: 80vw;
   height: 75vh;
   justify-content: space-around;
-
+   flex-direction: column;
+  background-color: #A7ECEE;
 }
 #main-bnf div{
-  width: 40vw;
-  height: 70vh;
+  width: 80vw;
+  height: 30vh;
 }
-#img-bnf{
+.div-bnf{
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
-  flex-direction: column;
   justify-content: space-around;
+  width: 45vw;
+  height: 35vh;
+  align-items: center;
 }
-#img-bnf img{
+.div-bnf img{
   object-fit: cover;
   width: 30vw;
   height: 30vh;
@@ -311,21 +323,30 @@ tr:hover {background-color: rgb(82, 41, 27);}
   flex-direction: column;
   justify-content: space-around;
   font-size: 2rem;
+  background-color: #A7ECEE;
 }
-#list-bnf ol{
+ol{
   display: flex;
   flex-wrap: wrap;
   width: 30vw;
-  height: 70vw;
+  height: 10vw;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: red;
+  font-size: 2rem;
 }
 .list-bnf>ul{
+  display: flex;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   list-style-type:square;
   color: black;
   padding-left: 2rem;
+  height: 20vh;
+  font-size: 1.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#body-bnf{
+  justify-content: space-evenly;
 }
