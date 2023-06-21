@@ -125,6 +125,7 @@ main {
   flex-wrap: wrap;
 }
 
+/* AboutUs */
 #body-about{
   display: flex;
   flex-wrap: wrap;
@@ -204,6 +205,7 @@ main {
   justify-items: flex-start;
 }
 
+/* Contacts */
 #body-c{
   display: flex;
   flex-wrap: wrap;
@@ -248,6 +250,7 @@ main {
   font-size: 2rem;
   height: 10vh;
   align-items: center;
+  font-family: 'Kanit', sans-serif;
 }
 #div-a-c{
   display: flex;
@@ -262,6 +265,7 @@ main {
   font-size: 2rem;
 }
 
+/* Information */
 #body-inf{
   justify-content: space-around;
 }
@@ -292,6 +296,8 @@ th{
 }
 td:hover {background-color: rgb(82, 41, 27);}
 
+
+/* BenefitsTips */
 #main-bnf{
   display: flex;
   flex-wrap: wrap;
@@ -351,4 +357,103 @@ ol{
 }
 #body-bnf{
   justify-content: space-evenly;
+}
+  
+/* Raffle */
+#main-raff{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#section-raff{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60vw;
+  height:78vh;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Kanit', sans-serif;
+  background-color: #A7ECEE;
+}
+#map-raff{
+  height: 60vh;
+  width: 35vw;
+}
+#form-raff{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 78vh;
+  background-color: #A7ECEE;
+}
+#field-1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 23vw;
+  height: 28vh;
+  justify-content: space-around;
+}
+#field-1 input, label, select{
+  width: 10vw;
+  font-size: 1rem;;
+}
+#field-1 label{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  height: 4vh;
+  align-items: center;
+}
+#field-2{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  height: 20vh;
+  width: 23vw;
+}
+#field-2 div{
+  width: 15vw;
+  font-family: 'Kanit', sans-serif;
+}
+#field-2>label{
+  font-size: 1rem;
+  font-weight: 300;
+}
+#field-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  width: 23vw;
+}
+#field-3 h4{
+  font-size: 1.8rem ;
+}
+#field-4{
+  display: flex;
+  width: 23vw;
+  justify-content: space-between;
+}
+#field-4 input{
+  height: 2vh;
+}
+#send{
+  width: 4vw;
+}
+#field-4 label{
+  width: 18vw;
+  height: 2vh;
+}
+fieldset{
+  background-color: transparent;
+  border-color: transparent;
+}
+textarea{
+  resize:none ;
 }
