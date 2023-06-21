@@ -284,6 +284,9 @@ td{
   border: solid rgb(51, 59, 2) 1rem;
   font-family: 'Kanit', sans-serif;
 }
+thead{
+  height: 10vh;
+}
 th{
   font-weight: bolder;
 }
